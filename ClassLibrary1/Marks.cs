@@ -12,7 +12,8 @@ namespace ClassLibrary1
     public class Marks
     {
         public int mark = 0;
-        //enum usually is in another library
+        //Manish
+        //enum usually is in another library 
         enum Categories
         {
             E = 20,
@@ -64,7 +65,6 @@ namespace ClassLibrary1
         {
             Console.Write("Enter Mark: ");
             var inputNumber = int.Parse(Console.ReadLine());
-            //Console.WriteLine(inputNumber.ToString());
             return inputNumber;
         }
 
